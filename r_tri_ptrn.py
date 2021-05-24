@@ -30,7 +30,6 @@ def pattern2(): #invert left L triangle...
 
 def pattern3():
     # sq = int(input("How many rows needed? : "))
-
     for row in range(5):
         print("     ", end=" ")
         for column in range(row + 1):
@@ -39,7 +38,6 @@ def pattern3():
 
 def pattern4():
     # sq = int(input("How many rows needed? : "))
-
     for row in range(5):
         print("     ", end=" ")
         for column in range(row, -1, -1):
@@ -48,7 +46,6 @@ def pattern4():
 
 def pattern5():
     # sq = int(input("How many rows needed? : "))
-
     for row in range(5):
         print("     ", end=" ")
         for column in range(row + 1):
@@ -57,9 +54,24 @@ def pattern5():
 
 def pattern6():
     # sq = int(input("How many rows needed? : "))
-
     for row in range(5):
         print("     ", end=" ")
         for column in range(row + 1):
             print(5-row, end=" ")
+        print()
+
+def pattern7():
+    # sq = int(input("How many rows needed? : "))
+    for row in range(5):
+        print("     ", end=" ")
+        for column in range(row + 1):
+            print(5 - column, end=" ")
+        print()
+
+def pattern8():
+    # sq = int(input("How many rows needed? : "))
+    for row in range(5):
+        print("     ", end=" ")
+        for column in range(row, -1, -1):
+            print(5 - column, end=" ")
         print()

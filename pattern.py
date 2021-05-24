@@ -1,7 +1,7 @@
 # Control of patterns...
-from ptrn_lst import *
+from r_tri_ptrn import *
 
-number = int(input("Enter one number [0-6] : "))
+number = int(input("Enter one number [0-8] : "))
 
 if number == 0:
     pattern0()
@@ -17,6 +17,10 @@ elif number == 5:
     pattern5()
 elif number == 6:
     pattern6()
+elif number == 7:
+    pattern7()
+elif number == 8:
+    pattern8()
 else:
     print("No pattern found!")
 

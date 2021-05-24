@@ -1,7 +1,7 @@
 # Control of patterns...
 from ptrn_lst import *
 
-number = int(input("Enter one number [0-5] : "))
+number = int(input("Enter one number [0-6] : "))
 
 if number == 0:
     pattern0()
@@ -15,6 +15,8 @@ elif number == 4:
     pattern4()
 elif number == 5:
     pattern5()
+elif number == 6:
+    pattern6()
 else:
     print("No pattern found!")
 

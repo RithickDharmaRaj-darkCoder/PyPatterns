@@ -54,3 +54,12 @@ def pattern5():
         for column in range(row + 1):
             print(row + 1, end=" ")
         print()
+
+def pattern6():
+    # sq = int(input("How many rows needed? : "))
+
+    for row in range(5):
+        print("     ", end=" ")
+        for column in range(row + 1):
+            print(5-row, end=" ")
+        print()

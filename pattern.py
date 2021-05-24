@@ -1,5 +1,6 @@
 # Control of patterns...
 from r_tri_ptrn import *
+from L_tri_ptrn import *
 
 number = int(input("Enter one number [0-8] : "))
 

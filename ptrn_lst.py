@@ -41,6 +41,16 @@ def pattern4():
     # sq = int(input("How many rows needed? : "))
 
     for row in range(5):
+        print("     ", end=" ")
         for column in range(row, -1, -1):
             print(column + 1, end=" ")
+        print()
+
+def pattern5():
+    # sq = int(input("How many rows needed? : "))
+
+    for row in range(5):
+        print("     ", end=" ")
+        for column in range(row + 1):
+            print(row + 1, end=" ")
         print()

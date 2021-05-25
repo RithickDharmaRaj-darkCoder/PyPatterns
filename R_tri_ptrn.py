@@ -36,3 +36,13 @@ def pattern12():
         for column in range(row + 1):
             print(5 - row, end=" ")
         print()
+
+def patterns13():
+    for row in range(5):
+        print("     ", end=" ")
+        for space in range(5 - row - 1):
+            print(" ", end=" ")
+        for column in range(row + 1):
+            print(5 - column, end=" ")
+        print()
+

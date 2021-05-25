@@ -1,7 +1,7 @@
 # Control of patterns...
 from R_tri_ptrn import *
 from L_tri_ptrn import *
-
+from shapes_ptrn import *
 def patterns():
     try:
         number = int(input("Enter one number [0-14] : "))

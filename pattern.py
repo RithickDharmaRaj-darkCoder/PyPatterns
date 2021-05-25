@@ -2,7 +2,7 @@
 from R_tri_ptrn import *
 from L_tri_ptrn import *
 
-number = int(input("Enter one number [0-8] : "))
+number = int(input("Enter one number [0-9] : "))
 
 if number == 0:
     pattern0()
@@ -22,6 +22,8 @@ elif number == 7:
     pattern7()
 elif number == 8:
     pattern8()
+elif number == 9:
+    pattern9()
 else:
     print("No pattern found!")
 

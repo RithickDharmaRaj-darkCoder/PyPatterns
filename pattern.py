@@ -4,7 +4,7 @@ from L_tri_ptrn import *
 
 def patterns():
     try:
-        number = int(input("Enter one number [0-11] : "))
+        number = int(input("Enter one number [0-12] : "))
 
         if number == 0:
             pattern0()
@@ -30,6 +30,8 @@ def patterns():
             pattern10()
         elif number == 11:
             pattern11()
+        elif number == 12:
+            pattern12()
         else:
             print("No pattern found!")
     except:

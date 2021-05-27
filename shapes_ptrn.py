@@ -61,7 +61,7 @@ def pattern18():  #  Inverted Triangle...
             print(sq + "  ", end=" ")
         print()
 
-def pattern19():
+def pattern19():  #  Dimond ♦ ...
     sq = input("Enter one element : ").upper()
     # r = int(input("Enter no.of rows : "))
 
@@ -78,4 +78,18 @@ def pattern19():
             print(" ", end=" ")
         for column in range(5-row):
             print(sq+"  ", end=" ")
+        print()
+
+def pattern20():  # ► Right Arrow  ...
+    sq = input("Enter one element : ").upper()
+    # r = int(input("Enter no.of rows : "))
+    for row in range(6):
+        print("     ", end=" ")
+        for column in range(row + 1):
+            print(sq, end=" ")
+        print()
+    for row in range(5):
+        print("     ", end=" ")
+        for column in range(5 - row, 0, -1):
+            print(sq + "", end=" ")
         print()

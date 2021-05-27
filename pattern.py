@@ -4,7 +4,7 @@ from L_tri_ptrn import *
 from shapes_ptrn import *
 def patterns():
     try:
-        number = int(input("Enter one number [0-19] : "))
+        number = int(input("Enter one number [0-20] : "))
 
         if number == 0:
             pattern0()
@@ -46,6 +46,8 @@ def patterns():
             pattern18()
         elif number == 19:
             pattern19()
+        elif number == 20:
+            pattern20()
         else:
             print("No pattern found!")
     except:

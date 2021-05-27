@@ -49,3 +49,14 @@ def pattern17():  # Right-A L Triangle...
         for column in range(row + 1):
             print(sq + "", end=" ")
         print()
+
+def pattern18():  #  Inverted Triangle...
+    sq = input("Enter one element : ").upper()
+    # r = int(input("Enter no.of rows : "))
+    for row in range(5):
+        print("    ", end="")
+        for space in range(row):
+            print(" ", end=" ")
+        for column in range(5 - row):
+            print(sq + "  ", end=" ")
+        print()

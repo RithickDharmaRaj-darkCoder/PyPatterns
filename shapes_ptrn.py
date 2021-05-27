@@ -93,3 +93,14 @@ def pattern20():  # ► Right Arrow  ...
         for column in range(5 - row, 0, -1):
             print(sq + "", end=" ")
         print()
+
+def pattern21(): # Inverted Right-A L triangle...
+    sq = input("Enter one element : ").upper()
+    # r = int(input("Enter no.of rows : "))
+    for row in range(5):
+        print("    ", end="")
+        for space in range(row):
+            print(" ", end=" ")
+        for column in range(5 - row):
+            print(sq, end=" ")
+        print()

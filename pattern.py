@@ -4,7 +4,7 @@ from L_tri_ptrn import *
 from shapes_ptrn import *
 def patterns():
     try:
-        number = int(input("Enter one number [0-14] : "))
+        number = int(input("Enter one number [0-15] : "))
 
         if number == 0:
             pattern0()
@@ -36,6 +36,8 @@ def patterns():
             pattern13()
         elif number == 14:
             pattern14()
+        elif number == 15:
+            pattern15()
         else:
             print("No pattern found!")
     except:

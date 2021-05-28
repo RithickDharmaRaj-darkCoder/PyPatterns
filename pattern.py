@@ -2,6 +2,8 @@
 from R_tri_ptrn import *
 from L_tri_ptrn import *
 from shapes_ptrn import *
+from alpha_ptrn import  *
+
 def patterns():
     try:
         number = int(input("Enter one number [0-22] : "))
@@ -52,6 +54,8 @@ def patterns():
             pattern21()
         elif number == 22:
             pattern22()
+        elif number == 23:
+            a()
         else:
             print("No pattern found!")
     except:

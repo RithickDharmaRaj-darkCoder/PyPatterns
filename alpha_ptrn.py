@@ -57,7 +57,7 @@ def e():  #27 Letter 'E' ...
                 print(end="   ")
         print()
 
-def f():  #28 Letter 'F'
+def f():  #28 Letter 'F' ...
     sq = input("Enter one element : ").upper()
     for row in range(7):
         print("    ", end="")
@@ -68,7 +68,7 @@ def f():  #28 Letter 'F'
                 print(end="   ")
         print()
 
-def g():  #29 Letter 'G'
+def g():  #29 Letter 'G' ...
     sq = input("Enter one element : ").upper()
     for row in range(7):
         print("    ", end="")
@@ -81,12 +81,23 @@ def g():  #29 Letter 'G'
                 print(end="   ")
         print()
 
-def h():  #30 Letter 'H'
+def h():  #30 Letter 'H' ...
     sq = input("Enter one element : ").upper()
     for row in range(7):
         print("    ", end="")
         for column in range(5):
             if (column == 0 or column == 4) or (row == 3):
+                print(f" {sq} ", end="")
+            else:
+                print(end="   ")
+        print()
+
+def i():  #31 Letter 'I' ...
+    sq = input("Enter one element : ").upper()
+    for row in range(7):
+        print("    ", end="")
+        for column in range(5):
+            if (column == 2) or (row == 0 or row == 6):
                 print(f" {sq} ", end="")
             else:
                 print(end="   ")

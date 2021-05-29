@@ -2,12 +2,15 @@
 
 def pattern2(): #invert left L triangle...
     sq = input("Enter one element : ").upper()
-    # r = int(input("Enter no.of rows : "))
-    for row in range(5):
-        print("     ",end=" ")
-        for column in range(5-row):
-            print(sq, end=" ")
-        print()
+    if len(sq) == 1:
+        # r = int(input("Enter no.of rows : "))
+        for row in range(5):
+            print("     ",end=" ")
+            for column in range(5-row):
+                print(sq, end=" ")
+            print()
+    else:
+        print("Warning! Enter only '1' Character.")
 
 def pattern3():
     # sq = int(input("How many rows needed? : "))

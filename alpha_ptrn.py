@@ -165,3 +165,20 @@ def k():  #33 Letter 'K' ...
             print()
     else:
         print("Warning! Enter only '1' Character.")
+
+def l():  #34 Letter 'L' ...
+    sq = input("Enter one element : ").upper()
+    if len(sq) == 1:
+        r = 0
+        c = 4
+        for row in range(7):
+            print("    ", end="")
+            for column in range(5):
+                if (column == 0) or (row == 6):
+                    print(f" {sq} ",end="")
+                else:
+                    print(end="   ")
+            print()
+    else:
+        print("Warning! Enter only '1' Character.")
+

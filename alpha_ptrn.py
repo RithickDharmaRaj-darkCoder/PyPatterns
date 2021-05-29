@@ -169,8 +169,6 @@ def k():  #33 Letter 'K' ...
 def l():  #34 Letter 'L' ...
     sq = input("Enter one element : ").upper()
     if len(sq) == 1:
-        r = 0
-        c = 4
         for row in range(7):
             print("    ", end="")
             for column in range(5):
@@ -185,8 +183,6 @@ def l():  #34 Letter 'L' ...
 def m():  #35 Letter 'M' ...
     sq = input("Enter one element : ").upper()
     if len(sq) == 1:
-        r = 0
-        c = 4
         for row in range(7):
             print("    ", end="")
             for column in range(7):
@@ -203,14 +199,29 @@ def m():  #35 Letter 'M' ...
 def n():  #36 Letter 'N' ...
     sq = input("Enter one element : ").upper()
     if len(sq) == 1:
-        r = 0
-        c = 4
         for row in range(7):
             print("    ", end="")
             for column in range(7):
                 if (column == 0 or column == 6):
                     print(f" {sq} ", end="")
                 elif (row == column):
+                    print(f" {sq} ", end="")
+                else:
+                    print(end="   ")
+            print()
+    else:
+        print("Warning! Enter only '1' Character.")
+
+def o():  #37 Letter 'O' ...
+    sq = input("Enter one element : ").upper()
+    if len(sq) == 1:
+        for row in range(7):
+            print("    ", end="")
+            for column in range(5):
+                if ((column == 0 or column == 4) and (row != 0 and row != 6)) or (
+                        row == 6 and (0 < column and column < 4)):
+                    print(f" {sq} ", end="")
+                elif (row == 0 and (0 < column and column < 4)):
                     print(f" {sq} ", end="")
                 else:
                     print(end="   ")

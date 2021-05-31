@@ -314,3 +314,19 @@ def t():  #42 Letter 'T' ...
             print()
     else:
         print("Warning! Enter only '1' Character.")
+
+def u():  #43 Letter 'U' ...
+    sq = input("Enter one element : ").upper()
+    if len(sq) == 1:
+        for row in range(7):
+            print("    ", end="")
+            for column in range(5):
+                if ((column == 0 or column == 4) and row != 6):
+                    print(f" {sq} ", end="")
+                elif (row == 6 and (0 < column < 4)):
+                    print(f" {sq} ", end="")
+                else:
+                    print(end="   ")
+            print()
+    else:
+        print("Warning! Enter only '1' Character.")

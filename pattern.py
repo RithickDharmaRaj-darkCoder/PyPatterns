@@ -6,7 +6,7 @@ from alpha_ptrn import  *
 
 def patterns():
     try:
-        number = int(input("Enter one number [0-40] : "))
+        number = int(input("Enter one number [0-41] : "))
 
         if number == 0:
             pattern0()
@@ -90,6 +90,8 @@ def patterns():
             q()
         elif number == 40:
             r()
+        elif number == 41:
+            s()
         else:
             print("No pattern found!")
     except:

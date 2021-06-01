@@ -54,3 +54,15 @@ def pattern14():
         for column in range(row, -1, -1):
             print(5 - column, end=" ")
         print()
+
+def pattern26():
+    for row in range(5):
+        print("    ", end="")
+        for column in range(5):
+            if (column == 4) or (row == 0):
+                print("*", end="  ")
+            elif (row == column):
+                print("*", end="  ")
+            else:
+                print(end="   ")
+        print()

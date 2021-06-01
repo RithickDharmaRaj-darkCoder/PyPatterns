@@ -6,7 +6,7 @@ from alpha_ptrn import  *
 
 def patterns():
     try:
-        number = int(input("Enter one number [0-48] : "))
+        number = int(input("Enter one number [0-23] : "))
         if number == 0:
             pattern0()
         elif number == 1:
@@ -54,56 +54,58 @@ def patterns():
         elif number == 22:
             pattern22()
         elif number == 23:
+            pattern23()
+        elif number == 100:
             a()
-        elif number == 24:
+        elif number == 101:
             b()
-        elif number == 25:
+        elif number == 102:
             c()
-        elif number == 26:
+        elif number == 103:
             d()
-        elif number == 27:
+        elif number == 104:
             e()
-        elif number == 28:
+        elif number == 105:
             f()
-        elif number == 29:
+        elif number == 106:
             g()
-        elif number == 30:
+        elif number == 107:
             h()
-        elif number == 31:
+        elif number == 108:
             i()
-        elif number == 32:
+        elif number == 109:
             j()
-        elif number == 33:
+        elif number == 110:
             k()
-        elif number == 34:
+        elif number == 111:
             l()
-        elif number == 35:
+        elif number == 112:
             m()
-        elif number == 36:
+        elif number == 113:
             n()
-        elif number == 37:
+        elif number == 114:
             o()
-        elif number == 38:
+        elif number == 115:
             p()
-        elif number == 39:
+        elif number == 116:
             q()
-        elif number == 40:
+        elif number == 117:
             r()
-        elif number == 41:
+        elif number == 118:
             s()
-        elif number == 42:
+        elif number == 119:
             t()
-        elif number == 43:
+        elif number == 120:
             u()
-        elif number == 44:
+        elif number == 121:
             v()
-        elif number == 45:
+        elif number == 122:
             w()
-        elif number == 46:
+        elif number == 123:
             x()
-        elif number == 47:
+        elif number == 124:
             y()
-        elif number == 48:
+        elif number == 125:
             z()
         else:
             print("No pattern found!")

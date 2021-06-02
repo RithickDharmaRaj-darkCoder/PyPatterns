@@ -65,7 +65,7 @@ def patterns():
             pattern27()
         elif number == 28:
             pattern28()
-        elif number == 299:
+        elif number == 29:
             pattern29()
         elif number == 100:
             a()

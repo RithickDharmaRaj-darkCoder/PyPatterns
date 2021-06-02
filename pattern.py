@@ -6,7 +6,7 @@ from alpha_ptrn import  *
 
 def patterns():
     try:
-        number = int(input("Enter one number [0-26] : "))
+        number = int(input("Enter one number [0-27] : "))
         if number == 0:
             pattern0()
         elif number == 1:
@@ -61,6 +61,8 @@ def patterns():
             pattern25()
         elif number == 26:
             pattern26()
+        elif number == 27:
+            pattern27()
         elif number == 100:
             a()
         elif number == 101:

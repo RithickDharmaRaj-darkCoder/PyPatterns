@@ -113,3 +113,12 @@ def pattern29():
             else:
                 print(end="   ")
         print()
+
+def pattern30():
+    k = 0
+    for row in range(4):
+        print("    ", end=" ")
+        for column in range(row + 1):
+            print(k, end=" ")
+            k += 1
+        print()

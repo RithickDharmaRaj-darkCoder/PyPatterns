@@ -185,3 +185,34 @@ def pattern25():  # Inverted odd Triangle...
             print()
     else:
         print("Warning! Enter only '1' Character.")
+
+def pattern34():
+    str = list(input("Enter your Name : ").upper())
+    len_of_str = len(str)
+    for row in range(len_of_str):
+        print(' ', end=" ")
+        for space in range(len_of_str - row - 1):
+            print(" ", end=" ")
+        for column in range(row + 1):
+            print(str[column], end="   ")
+        print()
+
+def pattern35():
+    strg = list(input("Enter your Name : ").upper())
+    len_of_str = len(strg)
+    for row in range(len_of_str - 1):
+        print(' ', end=" ")
+        for space in range(len_of_str - row - 1):
+            print(" ", end=" ")
+        for column in range(row + 1):
+            print(strg[column], end="   ")
+        print()
+
+    len_of_str = len(strg)
+    for row in range(len_of_str):
+        print(' ', end=" ")
+        for space in range(row):
+            print(" ", end=" ")
+        for column in range(len_of_str - row):
+            print(strg[column], end="   ")
+        print()
